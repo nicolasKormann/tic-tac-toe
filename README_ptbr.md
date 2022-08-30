@@ -1,5 +1,5 @@
 # Jogo da Velha 
-Recreação temática do jogo da velha usando HTML, CSS e Vanilla JavaScript.
+Recriação temática do jogo da velha usando HTML, CSS e Vanilla JavaScript.
 
 <div align=center>
 
