@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  color: #BC0F0F;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+
+  background-image: url(cave2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.card {
+  width: 110px;
+  height: 110px;
+  background-color: rgba(14, 14, 14, 0.945);
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.295);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.o {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.o:after {
+  position: absolute;
+  display: flex;
+  content: "🧙‍♂️";
+  font-size: 55px;
+}
+
+.x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.x:after {
+  position: absolute;
+  display: flex;
+  content: "\1F409";
+  font-size: 55px;
+}
+
+#restart {  
+  font-size: 1.7em;
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 8px;
+  padding: 15px;
+
+  border: none;
+  color: #BC0F0F;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+  cursor: pointer;
+  transition: filter 150ms linear;
+}
+
+#restart:hover {
+  filter: brightness(2.0);
+}
